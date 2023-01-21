@@ -3,7 +3,7 @@
 /**
  * _isdigit - checks if character is digit
  * @c: the character to check
- * Return: returns 1 if digit and 0 otherwise
+ * Return: 1 if digit, 0 otherwise
  */
 int _isdigit(int c)
 {
@@ -11,7 +11,7 @@ int _isdigit(int c)
 }
 
 /**
- * _strlen - function that returns the length of a string
+ * _strlen - returns the length of a string
  * @s: the string whose length to check
  * Return: returns integer length of string
  */
@@ -25,9 +25,9 @@ int _strlen(char *s)
 }
 
 /**
- * print_number - function that prints a number with options
- * @str: the base number as a string
- * @params: the parameter struct
+ * print_number - prints a number with options
+ * @str: base number as a string
+ * @params: parameter struct
  * Return: returns chars printed
  */
 int print_number(char *str, params_t *params)
@@ -55,7 +55,7 @@ int print_number(char *str, params_t *params)
 }
 
 /**
- * print_number_right_shift -functions that prints a number with options
+ * print_number_right_shift - function that prints a number with options
  * @str: base number as a string
  * @params: parameter struct
  * Return: returns chars printed
@@ -96,9 +96,9 @@ int print_number_right_shift(char *str, params_t *params)
 }
 
 /**
- * print_number_left_shift - function that prints a number with options
- * @str: base number as a string
- * @params: parameter struct
+ * print_number_left_shift - prints a number with options
+ * @str: the base number as a string
+ * @params: the parameter struct
  * Return: returns chars printed
  */
 int print_number_left_shift(char *str, params_t *params)
